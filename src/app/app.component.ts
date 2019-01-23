@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-hacker';
+  trs: string;
+  onKey(event) {
+    console.log(event);
+  }
 }
